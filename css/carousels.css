@@ -1,0 +1,145 @@
+/* Carousels */
+.carousel-section {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 0.625rem 2rem rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.625rem);
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 1rem 2.2rem rgba(0, 0, 0, 0.5);
+}
+
+/* ===== 3D CAROUSEL ===== */
+.carousel-3d-wrapper {
+    perspective: 1200px;
+    height: 70vh;
+    position: relative;
+}
+
+.carousel-3d-track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.carousel-item {
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    top: 5%;
+    left: 15%;
+    transition: all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transform-origin: center center;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1rem 2.2rem rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    /* color: whitesmoke; */
+    color: whitesmoke;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+/* Navigation buttons */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(0.33rem);
+}
+
+.carousel-nav:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-prev {
+    left: 20px;
+}
+
+.carousel-next {
+    right: 20px;
+}
+
+/* Indicators */
+.carousel-indicators {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator.active {
+    background: #ff5e62;
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .carousel-indicators {
+        bottom: 2px;
+    }
+    
+    .carousel-3d-wrapper {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-3d-wrapper {
+        height: 280px;
+    }
+    
+    .carousel-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+}

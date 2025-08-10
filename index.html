@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+	GRID layout - Portofolio/Music template
+	Made by Sound Spinning | soundspinning.co.uk
+    Last Updated: 04-Aug-2025
+-->
+<head>
+	<!-- 1. Core Meta Tags -->
+	<!-- ================= -->
+	<!-- Character Encoding -->
+	<meta charset="UTF-8">
+	
+	<!-- Viewport (Mobile Optimization) -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Code Author -->
+	<meta name="author" content="Sound Spinning" />
+	
+	<!-- Primary Title (Include Keywords + Location) -->
+	<title>Joe Bricks | Musician, Educator, Composer</title>
+
+	<!-- Meta Description (Include Services + Location + Call-to-Action) -->
+	<meta name="description" content="Music teaching, performance, East Sussex (UK). Contact for a personalised plan to learn music, percussion for all ages and levels. From one to one to schools.">
+
+	<!-- Canonical URL (Avoid Duplicate Content) -->
+	<link rel="canonical" href="https://soundspinning.co.uk">
+
+	<!-- Favicon (All Sizes) - https://realfavicongenerator.net -->
+	<link rel="shortcut icon" href="./favicon.ico" />
+	<link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+	<link rel="manifest" href="./site.webmanifest" />
+
+	<!-- 2. Local SEO & Google Business Profile -->
+	<!-- ====================================== -->
+	<!-- Geo-Region Meta Tags -->
+	<!-- Country code -->
+	<meta name="geo.region" content="GB">
+	<!-- City name -->
+	<meta name="geo.placename" content="Brighton">
+	
+	<!-- Google Business Profile Verification (if applicable) -->
+	<!-- <meta name="google-site-verification" content="your_verification_code_here"> -->
+
+	<!-- Local Business Schema Markup (JSON-LD) -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Sound Spinning",
+	  "image": "https://soundspinning.co.uk/assets/logo.jpg",
+	  "@id": "https://soundspinning.co.uk",
+	  "url": "https://soundspinning.co.uk",
+	  "telephone": "",
+	  "priceRange": "$$",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "",
+		"addressLocality": "Brighton",
+		"addressRegion": "East Sussex",
+		"postalCode": "BN2 3AU",
+		"addressCountry": "GB"
+	  },
+	  "geo": {
+		"@type": "GeoCoordinates",
+		"latitude": 50.8327431,
+		"longitude": -0.1249901
+	  },
+	  "OpeningHoursSpecification": {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+		"opens": "09:00",
+		"closes": "17:00"
+	  },
+	  "sameAs": [
+		"https://www.facebook.com/soundspinning",
+		"https://www.linkedin.com/in/soundspinning/",
+		"https://github.com/SoundSpinning",
+		"https://www.instagram.com/soundspinning",
+        "https://maps.app.goo.gl/B7oLQjRjUxxEaugv8",
+		"https://g.page/your-google-business-profile"
+	  ]
+	}
+	</script>
+
+	<!-- 3. Social Media & Open Graph (For Sharing) -->
+	<!-- ============================ -->
+	<!-- Open Graph (Facebook/LinkedIn) -->
+	<meta property="og:title" content="Joe Bricks | Musician, Educator, Composer">
+	<meta property="og:description" content="Music teaching, performance, East Sussex (UK). Contact for a personalised plan to learn music, percussion for all ages and levels. From one to one to schools.">
+	<meta property="og:image" content="https://soundspinning.co.uk/assets/logo.jpg">
+	<meta property="og:url" content="https://soundspinning.co.uk">
+	<meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GB">
+	
+	<!-- Twitter Card (maybe redundant?) -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Joe Bricks | Musician, Educator, Composer">
+	<meta name="twitter:description" content="Music teaching, performance, East Sussex (UK). Contact for a personalised plan to learn music, percussion for all ages and levels. From one to one to schools.">
+	<meta name="twitter:image" content="https://soundspinning.co.uk/assets/logo.jpg">
+
+    <!-- 4. Technical SEO & Performance -->
+	<!-- ============================== -->
+    <!-- FONTS -->
+    <!-- Preconnect to Google Fonts/CDN -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet"> -->
+
+    <!-- Preload JSON to boost load speed -->
+    <link rel="preload" href="js/content.json" as="fetch" crossorigin="anonymous">
+
+    <!-- Preconnect to Image Hosts (e.g., Imgix CDN) -->
+    <!-- <link rel="preconnect" href="https://your-imgix-domain.com"> -->
+    
+    <!-- Main STYLES -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/carousels.css" />
+    <!-- free Bootstrap ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body id="home">
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#home" class="branding" title="Home">
+                <img src="favicon.svg" alt="Joe Bricks Logo" class="logo">
+                <div class="branding-text">
+                    <h1>Joe Bricks</h1>
+                    <p class="tagline">Musician • Educator • Composer</p>
+                </div>
+            </a>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#performance">Performing</a></li>
+                    <li><a href="#media">Videos</a></li>
+                    <li><a href="#composition">Songs</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="grid-container">
+        <!-- About Section -->
+        <section id="about" class="card about">
+            <div class="card-content">
+                <!-- 3D Carousel -->
+                <section class="carousel-section">
+                    <div class="carousel-container">
+                        <div class="carousel-3d-wrapper">
+                            <div class="carousel-3d-track">
+                                <!-- Populated by content.js -->
+                            </div>
+                        </div>
+                        <button class="carousel-nav carousel-prev"><i class="bi bi-chevron-left"></i></button>
+                        <button class="carousel-nav carousel-next"><i class="bi bi-chevron-right"></i></button>
+                        <div class="carousel-indicators"></div>
+                    </div>
+                    <div id="carousel-fallback" style="display:none">
+                        <p>Content failed to load. Please refresh or check your connection.</p>
+                    </div>
+                </section>
+                <h2>Joe Bricks</h2>
+                <p>
+                    Mat is passionate about music and rhythm. He has spent decades perfecting and evolving unique methods of music teaching. From guitar one to ones, to large kids' workshops at schools with drums & percussion at its core. 
+                    <br><br>
+                    His understanding how music, sounds and rhythm interact with our body and mind has helped him to develop unique approaches, such as the workshop <a href="#teaching" class=""><strong>Rhythm into Stillness</strong></a>.
+                </p>
+                <br>
+                <details>
+                    <summary class="cta">Bio</summary>
+                    <p>
+                        <br>
+                        Mat is a solo artist and teacher (<strong>guitar, bouzouki, mandolin, ukelele, singing, drums & percussion</strong>).
+                        <br><br>
+                        He has performed live for <strong>over 35 years</strong>: solo, and alongside many international musicians. He's taught music for over 30 years, and has also recorded with a large range of international artists including <strong>Ladysmith Black Mambazo</strong> (South African acapella group).
+                        <br><br>
+                        Mat studied at the <strong>London Guitar Institute</strong>, as well as with various world renowned music teachers including Glen Velez and Reinhard Flatischler. He spent a number of years living in Spain, where he studied and soaked up the flamenco flavours.
+                        <br><br>
+                        He dedicates his career to both performing and teaching, sharing his passion for the joy of creating music.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching" class="card teaching">
+            <div class="card-content">
+                <h2>Music Education</h2>
+                <p>Engaging lessons for all ages and skill levels, specialising in rhythm, percussion and guitar.</p>
+                <ul>
+                    <li>School workshops</li>
+                    <li>Private lessons (in person or online)</li>
+                    <li>Adult beginner classes</li>
+                    <li>Rhythm into Stillness therapy (click below for more)</li>
+                </ul>
+                <details>
+                    <summary class="cta">Learn About Lessons</summary>
+                    <p>
+                        <br>
+                        The <strong>joy and pleasure of being creative</strong> with a musical instrument is something we can all experience given the right support.
+                        <ul>
+                            <li>Learn the tricks and tools to play expressive and dynamic music.</li>
+                            <li>Tailor made lessons to inspire creativity and passion for adults and children.</li>
+                            <li>From one to one lessons at any age to kids workshops in schools.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Rhythm into Stillness</strong>: join me for a rhythmical, meditative journey. A playful and challenging exploration into our body, mind and soul using drums, steps, claps, shakers and your voice.
+                        <ul>
+                            <li>Use different rhythmical patterns to support your growth in body awareness.</li>
+                            <li>Starting energetically we will move towards a place of inner stillness.</li>
+                            <li>No musical skills are necessary just an openness to explore.</li>
+                        </ul>
+                    </p>
+                    <a href="#contact"><button class="cta">Book a Lesson</button></a>
+                </details>
+            </div>
+            <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1470784591255-6c7c80d419c8?q=80&w=1056&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Teaching kids drumming in a classroom">
+            </div>
+        </section>
+        
+        <!-- Performance Section -->
+        <section id="performance" class="card performance">
+            <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1529006469473-c7392d7f1eb4?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Performing live at a wedding">
+            </div>
+            <div class="card-content">
+                <h2>Live Performance</h2>
+                <p>Professional musical performances for all occasions and venues.</p>
+                <ul>
+                    <li>Weddings & celebrations</li>
+                    <li>Corporate & charity events</li>
+                    <li>Hotels & restaurants</li>
+                    <li>Memorial services</li>
+                </ul>
+                <details>
+                    <summary class="cta">Learn More</summary>
+                    <p>
+                        <br>
+                        Atmospheric and soulful music from an experienced, passionate and sensitive musician.
+                        <ul>
+                            <li>Mat loves creating an <strong>ambience and atmosphere</strong>, a beautiful background to your special event.</li>
+                            <li>He plays a unique mix of styles <strong>tailored to your needs</strong>.</li>
+                            <li>His main influences are <strong>Jazz, Folk, Classical, Celtic, Latin and Soul</strong>. He's also a singer and can include vocals in your song list.</li>
+                            <li>He has performed live for <strong>over 35 years</strong>, as well as alongside many international musicians.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Equipment</strong>: high quality sound system (AER) to adapt for intimate or larger gatherings. It can run on battery for off grid, outdoor events. Can also provide a microphone for speeches, as well as recorded background music during breaks, if required.
+                    </p>
+                    <br>
+                    <a href="#contact"><button class="cta">Book a Performance</button></a>
+                </details>
+            </div>
+        </section>
+
+        <section id="media" class="card videos">
+            <div class="card-content">
+            <h2>Videos</h2>
+            <div class="video-grid">
+            <!-- Populated by content.js -->
+                <!-- Lazy-loaded YouTube iframe placeholder -->
+            </div>
+            <a href="https://www.youtube.com/@SoundSpinning" target="_blank"><button class="cta">More Videos</button></a>
+            </div>
+        </section>
+        
+        <!-- Composition Section -->
+        <section id="composition" class="card composition">
+            <div class="card-content">
+                <h2>Original Compositions</h2>
+                <p>Listen to my original music and commissioned works.</p>
+                <div class="audio-player">
+                <!-- Populated by content.js -->
+                </div>
+                <a href="https://soundspinning.github.io/sound-spinning/" target="_blank"><button class="cta">More Music</button></a>
+            </div>
+            <div class="card-image">
+                <img src="https://soundspinning.github.io/sound-spinning/assets/media/brighton_33.jpg" alt="Working in the recording studio">
+            </div>
+        </section>
+        
+        <!-- Testimonials -->
+        <section id="testimonials" class="card testimonials">
+            <h2>What People Say</h2>
+            <div class="testimonial-grid">
+                <blockquote>
+                    <p>"Joe transformed our school's music program with his engaging approach to rhythm education."</p>
+                    <cite>— Sarah K., Elementary School Principal</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"The perfect musical touch for our wedding ceremony. Professional and talented!"</p>
+                    <cite>— Michael & Jenna</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"His compositions have a unique voice that blends tradition with innovation."</p>
+                    <cite>— Music Monthly Magazine</cite>
+                </blockquote>
+                <br>
+            </div>
+            <!-- <p> -->
+            <a href="https://soundspinning.co.uk" target="_blank"><button class="cta">More Reviews</button></a>
+            <!-- </p> -->
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="card contact">
+            <h2>Get In Touch</h2>
+
+            <section class="features">
+                <div class="feature">
+                    <i class="bi bi-envelope-at"></i>
+                    <h3>Email</h3>
+                    <p>Contact for a free consultation</p>
+                    <a href="mailto:email@domain.com"><button class="cta">email@domain.com</button></a>
+                </div>
+                <div class="feature">
+                    <i class="bi bi-telephone-outbound"></i>
+                    <h3>Phone</h3>
+                    <p>Let's discuss your specific needs</p>
+                    <a href="tel:+4401234567890"><button class="cta">+44 01234 567890</button></a>
+                </div>
+                <div class="feature">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Studio</h3>
+                    <p>East Sussex (UK)</p>
+                    <a href="https://maps.app.goo.gl/B7oLQjRjUxxEaugv8" target="_blank"><button class="cta">G-Maps</button></a>
+                </div>
+            </section>
+
+            <details>
+			    <summary class="cta">Fill a Form</summary>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <select>
+                        <option value="">I'm interested in...</option>
+                        <option value="lessons">Music Lessons</option>
+                        <option value="performance">Booking a Performance</option>
+                        <option value="composition">Commissioning Music</option>
+                        <option value="other">Other Inquiry</option>
+                    </select>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="cta">Send Message</button>
+                </form>
+            </details>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.facebook.com/Sound.Spinning" target="_blank"><i class="bi bi-facebook" title="Facebook"></i></a>
+            <a href="https://www.instagram.com/soundspinning/" target="_blank"><i class="bi bi-instagram" title="Instagram"></i></a>
+            <a href="https://www.youtube.com/@SoundSpinning" target="_blank"><i class="bi bi-youtube" title="YouTube"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-suit-diamond-fill" title="Bandcamp"></i></a>
+            <a href="https://open.spotify.com/user/soundspinning" target="_blank"><i class="bi bi-spotify" title="Spotify"></i></a>
+            <a href="https://github.com/SoundSpinning" target="_blank"><i class="bi bi-github" title="GitHub"></i></a>
+            <a href="https://www.linkedin.com/in/soundspinning/" target="_blank"><i class="bi bi-linkedin" title="LinkedIn"></i></a>
+            <a href="https://maps.app.goo.gl/B7oLQjRjUxxEaugv8" target="_blank"><i class="bi bi-google" title="G-Reviews"></i></a>
+        </div>
+        <p>&copy; 2025 Joe Bricks. All rights reserved.</p>
+    </footer>
+
+	<div class="foot-bar">
+		<!-- <span>
+			<a>ABOUT</a>
+			<span>&ii;</span>
+		</span> -->
+		<span>
+			<a>
+			<span>&#9874;</span>
+            </a>
+		</span>
+		<!-- <span>
+			&copy; Sound Spinning - 2025
+		</span> -->
+	</div>
+
+    <!-- MODALs -->
+	<!-- Controls MODAL -->
+	<div id="controls-modal">
+	    <span class="close">&cross;</span>
+		<!--Theme switch-->
+		<input type="checkbox" id="themeSwitch" name="theme-switch" class="theme-switch__input" checked/>
+		<label for="themeSwitch" class="theme-switch__label">
+		  <span>Switch theme</span>
+		</label>
+
+		<!--Gap switch-->
+		<span class="range">
+			<datalist id="values">
+		  	<option value="-2" label="1"></option>
+		  	<option value="-1" label="2"></option>
+		  	<option value="0" label="3"></option>
+		  	<option value="1" label="4"></option>
+		  	<option value="2" label="5"></option>
+		  </datalist>
+		  <input type="range" min="-2" max="2" value="0" step="1" list="values" id="gapSwitch"name="gap-switch" class="gap-switch__input"/>
+		  <label for="gapSwitch" class="gap-switch__label">
+		    <span>Font size</span>
+		  </label>
+		</span>
+	</div>
+
+    <script src="js/content.js"></script>
+    <script src="js/carousels.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
