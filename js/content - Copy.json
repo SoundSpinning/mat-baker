@@ -1,0 +1,111 @@
+{ "images": [
+    {
+      "imgId": 1,
+      "file": "https://images.unsplash.com/photo-1512357770-d7d0cdd73321?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Drums teaching",
+      "year": " (2025)",
+      "title": "Drums teaching",
+      "info": "Drums workshop"
+    },
+    {
+      "imgId": 2,
+      "file": "https://images.unsplash.com/photo-1593697725250-6a184f4e9ed0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Music studio",
+      "year": " (2025)",
+      "title": "",
+      "info": "Songwritting, recording"
+    },
+    {
+      "imgId": 3,
+      "file": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "alt": "Studio",
+      "year": " (2025)",
+      "title": "",
+      "info": "Studio Recording Session"
+    },
+    {
+      "imgId": 4,
+      "file": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "alt": "Live Music Festival",
+      "year": " (2025)",
+      "title": "",
+      "info": "Live Music Festival"
+    },
+    {
+      "imgId": 5,
+      "file": "https://images.unsplash.com/photo-1574540379276-f2bda083c425?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Teaching",
+      "year": " (2025)",
+      "title": "",
+      "info": "Guitar teaching"
+    },
+    {
+      "imgId": 6,
+      "file": "https://images.unsplash.com/photo-1495584573439-311b2edeec75?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Teaching",
+      "year": " (2025)",
+      "title": "",
+      "info": "Ukelele teaching"
+    },
+    {
+      "imgId": 7,
+      "file": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "alt": "Stage",
+      "year": " (2025)",
+      "title": "",
+      "info": "Main Stage Performance"
+    },
+    {
+      "imgId": 8,
+      "file": "https://images.unsplash.com/photo-1486808373800-adfc9a3fe20b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Drums teaching",
+      "year": " (2025)",
+      "title": "",
+      "info": "Drums workshop"
+    }
+  ],
+  "videos": [
+    {
+      "Id": 1,
+      "ytId": "txP4tpgor30",
+      "info": "Mat Baker Guitar Showreel"
+    },
+    {
+      "Id": 2,
+      "ytId": "VjfNCFQZJxo",
+      "info": "Mat Baker Guitar Lessons"
+    },
+    {
+      "Id": 3,
+      "ytId": "loDFPlarnWM",
+      "info": "Mat Baker Rhythm into Stillnes"
+    },
+    {
+      "Id": 4,
+      "ytId": "Dsb7b8mUngc",
+      "info": "Mat Baker Percussion Demo"
+    }
+  ],
+  "songs": [
+    {
+      "Id": 1,
+      "file": "assets/01_Mat Baker_Flow Like A River.mp3",
+      "info": "'Flow Like A River' ( 2015 )"
+    },
+    {
+      "Id": 2,
+      "file": "assets/01 Track 1_perfect imperfections.mp3",
+      "info": "'Track 2 - perfect imperfections' ( 2016 )"
+    },
+    {
+      "Id": 3,
+      "file": "assets/02 Track 2_perfect imperfections.mp3",
+      "info": "'Track 3 - perfect imperfections' ( 2016 )"
+    },
+    {
+      "Id": 4,
+      "file": "assets/03 Track 3_perfect imperfections.mp3",
+      "info": "'Track 4 - perfect imperfections' ( 2016 )"
+    }
+  ]
+}

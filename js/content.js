@@ -4,12 +4,12 @@
 
 // Remember to set imgix path correctly to serve images online.
 // It may need a specific sub-folder name from the `Assets` GitHub repo.
-var imgix_path = "";
-// var imgix_path = "https://sound-spinning-pics.imgix.net/<folder_name>/";
+// var imgix_path = "";
+var imgix_path = "https://sound-spinning-pics.imgix.net/mat/";
 
 // imgix settings, appended after image filename. CHECK: width value `w=` is right.
-var imgix_ops = "";
-// var imgix_ops = "?w=800&auto=compress,enhance,format";
+// var imgix_ops = "";
+var imgix_ops = "?w=800&auto=compress,enhance,format";
 
 // START parsing JSON file
 async function loadContent() {
