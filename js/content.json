@@ -67,45 +67,45 @@
   "videos": [
     {
       "Id": 1,
-      "ytId": "jJbLej0ywPA",
-      "info": "MIGHT - 2Min (2015)"
+      "ytId": "txP4tpgor30",
+      "info": "Mat Baker Guitar Showreel"
     },
     {
       "Id": 2,
-      "ytId": "ExVI6DzAgkI",
-      "info": "Zois Ande Larres - El Tren (1992)"
+      "ytId": "VjfNCFQZJxo",
+      "info": "Mat Baker Guitar Lessons"
     },
     {
       "Id": 3,
-      "ytId": "pZEjAaEXqFQ",
-      "info": "Sweet Jonny - Banger Racer (2023)"
+      "ytId": "loDFPlarnWM",
+      "info": "Mat Baker Rhythm into Stillnes"
     },
     {
       "Id": 4,
-      "ytId": "an524Fflt9w",
-      "info": "Sweet Jonny - Cheese Chips (2025)"
+      "ytId": "Dsb7b8mUngc",
+      "info": "Mat Baker Percussion Demo"
     }
   ],
   "songs": [
     {
       "Id": 1,
-      "file": "https://soundspinning.github.io/sound-spinning/assets/Sound%20Spinning%20-%20Vol.3%20-%2001%20-%20Virgin%20Mind.mp3",
-      "info": "'Virgin Mind' ( 2005 )"
+      "file": "assets/01_Mat Baker_Flow Like A River.mp3",
+      "info": "'Flow Like A River' ( 2015 )"
     },
     {
       "Id": 2,
-      "file": "https://soundspinning.github.io/sound-spinning/assets/Sound%20Spinning%20-%20Vol.3%20-%2004%20-%20Pressure.mp3",
-      "info": "'Pressure' ( 2005 )"
+      "file": "assets/01 Track 1_perfect imperfections.mp3",
+      "info": "'Track 2 - perfect imperfections' ( 2016 )"
     },
     {
       "Id": 3,
-      "file": "https://soundspinning.github.io/might/assets/Might%20-%20Procrastination%20-%2001%20ORB.mp3",
-      "info": "'Orb' (2018)"
+      "file": "assets/02 Track 2_perfect imperfections.mp3",
+      "info": "'Track 3 - perfect imperfections' ( 2016 )"
     },
     {
       "Id": 4,
-      "file": "https://soundspinning.github.io/might/assets/Might%20-%20Procrastination%20-%2004%20DOER.mp3",
-      "info": "'Doer' (2018)"
+      "file": "assets/03 Track 3_perfect imperfections.mp3",
+      "info": "'Track 4 - perfect imperfections' ( 2016 )"
     }
   ]
 }
