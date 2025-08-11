@@ -128,6 +128,7 @@ a {
 .branding-text {
     display: flex;
     flex-direction: column;
+    line-height: initial;
 }
 
 .branding:hover {
@@ -359,9 +360,6 @@ main > section {
 }
 
 .stillness {
-    /* background-image: url("../assets/rhythm_into_stillness_logo.png");
-    background-position: right;
-    background-size: cover; */
     width: 6rem;
     height: 6rem;
     position: absolute;
@@ -561,6 +559,19 @@ cite {
 
 .social-links {
     margin-bottom: 1rem;
+}
+
+.footer-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-row a,
+.footer-row .logo {
+    width: 2rem;
+    height: 2rem;
 }
 
 .social-links a {
