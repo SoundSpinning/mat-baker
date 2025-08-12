@@ -13,25 +13,25 @@
     --max-card-w: 400px;
     --link-line: crimson;
 
-    /* LIGHT theme */
-    --light: #333;
+    /* LIGHT theme, for ref. See '.theme-switch__input' */
+    /* --light: #333;
     --dark: burlywood;
     --gradDark: rgb(184, 184, 192);
     --gradLight: rgba(222, 184, 135, 0.85);
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradLight: darkgoldenrod;
     --nav-gradDark: rgba(230, 230, 250, 1);
-    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight))
+    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)); */
 
     /* DARK theme, for ref. See '.theme-switch__input' */
-    /* --light: whitesmoke;
+    --light: whitesmoke;
     --dark: #2c3e50;
     --gradDark: #071a64;
     --gradLight: #b90000;
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
-    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)) */
+    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight));
 }
 
 html {
@@ -406,6 +406,11 @@ main > section {
     color: unset;
 }
 
+/* Details dropdown */
+summary {
+    cursor: pointer;
+}
+
 /* Audio Player */
 .audio-player {
     margin: 1rem;
@@ -545,10 +550,6 @@ cite {
 .contact-form textarea {
     resize: vertical;
 }
-
-/* details {
-    transition: all 0.3s ease;
-} */
 
 /* Footer */
 .footer {
@@ -768,16 +769,24 @@ ul, .made-by {
 
 /* START Theme switch */
 body:has(.theme-switch__input:checked) {
-    /* --gradDark: hsl(198, 44%, 11%);
-    --gradLight: hsl(198, 39%, 29%); */
-    --light: whitesmoke;
+    /* LIGHT theme */
+    --light: #333;
+    --dark: burlywood;
+    --gradDark: rgb(184, 184, 192);
+    --gradLight: rgba(222, 184, 135, 0.85);
+    --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
+    --nav-gradLight: darkgoldenrod;
+    --nav-gradDark: rgba(230, 230, 250, 1);
+    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight));
+    /* DARK theme */
+    /* --light: whitesmoke;
     --dark: #2c3e50;
     --gradDark: #071a64;
     --gradLight: #b90000;
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
-    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight))
+    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)); */
 }
 
 .theme-switch__input {
@@ -814,15 +823,15 @@ body:has(.theme-switch__input:checked) {
 }
 
 .theme-switch__label::before {
-  content: "\263C";
+  content: "\263E";
   right: 100%;
   margin-right: 10px;
-  color: orange;
 }
 .theme-switch__label::after {
-  content: "\263E";
+  content: "\263C";
   left: 100%;
   margin-left: 10px;
+  color: orange;
 }
 
 .theme-switch__label span::after {
@@ -842,11 +851,11 @@ body:has(.theme-switch__input:checked) {
   transform: translate3d(5.08rem, 0, 0);
 }
 
-.theme-switch__input:checked ~ .theme-switch__label::before {
+.theme-switch__input:checked ~ .theme-switch__label::after {
   /* color: black; */
   color: var(--light);
 }
-.theme-switch__input:checked ~ .theme-switch__label::after {
+.theme-switch__input:checked ~ .theme-switch__label::before {
   color: turquoise;
 }
 /* END Theme switch */
