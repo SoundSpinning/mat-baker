@@ -14,22 +14,21 @@
     --link-line: crimson;
 
     /* LIGHT theme, for ref. See '.theme-switch__input' */
+    /* --nav-gradLight: darkgoldenrod; */
     /* --light: #333;
     --dark: burlywood;
     --gradDark: rgb(184, 184, 192);
     --gradLight: rgba(222, 184, 135, 0.85);
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
-    --nav-gradLight: darkgoldenrod;
+    --nav-gradLight: #A68549;
     --nav-gradDark: rgba(230, 230, 250, 1);
     --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)); */
 
     /* DARK theme, for ref. See '.theme-switch__input' */
     --light: whitesmoke;
     --dark: #2c3e50;
-    /* --gradDark: #071a64;
-    --gradLight: #b90000; */
-    --gradDark: #344c1e;
-    --gradLight: #a88645;
+    --gradDark: #43592D;
+    --gradLight: #A68549;
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
@@ -178,11 +177,6 @@ a {
 .branding:hover h1::after {
     width: 100%;
 }
-
-/* Mobile Menu Toggle */
-/* .main-nav.active {
-    color: whitesmoke;
-} */
 
 .mobile-menu-toggle {
     display: none;
@@ -530,7 +524,7 @@ cite {
 }
 
 /* Contact Form */
-.contact-form {
+/* .contact-form {
     display: grid;
     gap: var(--gap);
     width: 100%;
@@ -551,7 +545,7 @@ cite {
 
 .contact-form textarea {
     resize: vertical;
-}
+} */
 
 /* Footer */
 .footer {
@@ -777,14 +771,14 @@ body:has(.theme-switch__input:checked) {
     --gradDark: rgb(184, 184, 192);
     --gradLight: rgba(222, 184, 135, 0.85);
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
-    --nav-gradLight: darkgoldenrod;
+    --nav-gradLight: #A68549;
     --nav-gradDark: rgba(230, 230, 250, 1);
     --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight));
     /* DARK theme */
     /* --light: whitesmoke;
     --dark: #2c3e50;
-    --gradDark: #071a64;
-    --gradLight: #b90000;
+    --gradDark: #43592D;
+    --gradLight: #A68549;
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
