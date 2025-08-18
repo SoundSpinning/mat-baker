@@ -26,8 +26,10 @@
     /* DARK theme, for ref. See '.theme-switch__input' */
     --light: whitesmoke;
     --dark: #2c3e50;
-    --gradDark: #071a64;
-    --gradLight: #b90000;
+    /* --gradDark: #071a64;
+    --gradLight: #b90000; */
+    --gradDark: #344c1e;
+    --gradLight: #a88645;
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
