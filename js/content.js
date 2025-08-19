@@ -31,7 +31,7 @@ async function loadContent() {
 
     const vid_grid = document.querySelector('.video-grid');
     const dataVids = data.videos;
-    // 1.- Append videos to HTML
+    // 2.- Append videos to HTML
     for (const vid of dataVids) {
       vid_grid.innerHTML +=
 `               <!-- VID-${vid.Id} -->
@@ -49,7 +49,7 @@ async function loadContent() {
 
     const audio_grid = document.querySelector('.audio-player');
     const dataSongs = data.songs;
-    // 1.- Append videos to HTML
+    // 3.- Append songs to HTML
     for (const song of dataSongs) {
       audio_grid.innerHTML +=
 `               <!-- SONG-${song.Id} -->

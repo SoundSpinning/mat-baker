@@ -5,20 +5,20 @@
       "alt": "Mat Baker music teaching, songwriting",
       "year": " (2025)",
       "title": "",
-      "info": "Teaching, events, songwriting"
+      "info": "Music Teaching, Workshops, Events, Songwriting"
     },
     {
       "imgId": 2,
       "file": "mat_baker_perform_2.jpg",
-      "alt": "Mat Baker Guitar teaching, perform",
+      "alt": "Mat Baker Guitar teaching, performing",
       "year": " (2025)",
       "title": "",
-      "info": "Guitar live performance"
+      "info": "Guitar - live performance"
     },
     {
       "imgId": 3,
       "file": "profile_4_bouzouki.jpg",
-      "alt": "Mat Baker bouzouki teaching, perform",
+      "alt": "Mat Baker bouzouki teaching, performing",
       "year": " (2025)",
       "title": "",
       "info": "Bouzouki teaching and performing"
@@ -41,6 +41,30 @@
     },
     {
       "imgId": 6,
+      "file": "mat_baker_perform_10.jpg",
+      "alt": "Mat Baker live events",
+      "year": " (2025)",
+      "title": "",
+      "info": "Ceremony - live performance"
+    },
+    {
+      "imgId": 7,
+      "file": "mat_baker_perform_11.jpg",
+      "alt": "Mat Baker percussion workshops",
+      "year": " (2025)",
+      "title": "",
+      "info": "Percussion workshops & live events"
+    },
+    {
+      "imgId": 8,
+      "file": "Mat_Baker_Drums_in_Yurt.jpg",
+      "alt": "Mat Baker live drums in Yurt",
+      "year": " (2025)",
+      "title": "",
+      "info": "Drums performance in a Yurt"
+    },
+    {
+      "imgId": 9,
       "file": "ukelele_1.jpg",
       "alt": "Mat Baker Ukelele Teaching",
       "year": " (2025)",
@@ -48,7 +72,7 @@
       "info": "Ukelele student"
     },
     {
-      "imgId": 7,
+      "imgId": 10,
       "file": "mat_baker_perform_3.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
@@ -56,7 +80,7 @@
       "info": "Main Stage Performance"
     },
     {
-      "imgId": 8,
+      "imgId": 11,
       "file": "mat_baker_perform_4.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
@@ -64,7 +88,7 @@
       "info": "Main Stage Performance"
     },
     {
-      "imgId": 9,
+      "imgId": 12,
       "file": "mic_1.jpg",
       "alt": "Mat Baker songwriter",
       "year": " (2025)",
@@ -72,7 +96,7 @@
       "info": "Songwriting and studio recording"
     },
     {
-      "imgId": 10,
+      "imgId": 13,
       "file": "profile_6_bouzouki.jpg",
       "alt": "Mat Baker bouzouki",
       "year": " (2025)",
@@ -80,7 +104,7 @@
       "info": "Bouzouki"
     },
     {
-      "imgId": 11,
+      "imgId": 14,
       "file": "mat_baker_perform_1.jpg",
       "alt": "Mat Baker Guitar teaching, perform",
       "year": " (2025)",
@@ -88,20 +112,28 @@
       "info": "Guitar teaching and performing"
     },
     {
-      "imgId": 12,
+      "imgId": 15,
       "file": "Bakk Lamp Fall_1.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
       "title": "",
-      "info": "Mat performing with Bakk Lamp Fall"
+      "info": "Mat live with 'Bakk Lamp Fall'"
     },
-        {
-      "imgId": 13,
+    {
+      "imgId": 16,
       "file": "Mat_Baker_Music_logo.jpg",
       "alt": "Mat Baker Music logo",
       "year": " (2025)",
       "title": "",
       "info": "Mat Baker Music logo"
+    },
+    {
+      "imgId": 17,
+      "file": "Guitar Man.jpg",
+      "alt": "Mat Baker Music drawing",
+      "year": " (2025)",
+      "title": "",
+      "info": "Mat Baker Music - guitar man"
     }
   ],
   "videos": [
@@ -112,8 +144,8 @@
     },
     {
       "Id": 2,
-      "ytId": "VjfNCFQZJxo",
-      "info": "Mat Baker Guitar Lessons"
+      "ytId": "fDIsBB-7On8",
+      "info": "Mat Baker Ukelele - 'Ain't no Sunshine'"
     },
     {
       "Id": 3,
@@ -122,7 +154,7 @@
     },
     {
       "Id": 4,
-      "ytId": "Dsb7b8mUngc",
+      "ytId": "xwa0W51OCjA",
       "info": "Mat Baker Percussion Demo"
     }
   ],

@@ -71,6 +71,10 @@ h1, h2, h3 {
     letter-spacing: 0.2rem;
 }
 
+h3 {
+    padding-top: 1rem;
+}
+
 a {
     text-decoration: none;
     color: var(--h2-border);
@@ -441,7 +445,6 @@ audio:focus-within {
 .testimonial-grid {
     display: grid;
     grid-template-columns: 1fr;
-    /* gap: 1.5rem; */
     gap: var(--gap);
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -886,6 +889,10 @@ datalist {
     
     .about, .testimonials, .contact {
         grid-column: 1 / -1;
+    }
+
+    .testimonials blockquote:nth-of-type(1) {
+        grid-column: 1 / 3;
     }
 }
 
