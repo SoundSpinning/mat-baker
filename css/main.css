@@ -150,15 +150,16 @@ a {
 
 .main-nav a {
     color: var(--light);
+    font-size: 1rem;
     text-decoration: none;
-    font-weight: bold;
+    text-transform: uppercase;
+    /* font-weight: bold; */
     padding: 0.5rem 0;
     position: relative;
 }
 
 .main-nav a:hover,
 .branding:hover h1 {
-    /* color: var(--text-2); */
     color: var(--gradLight);
 }
 
@@ -259,7 +260,7 @@ a {
     }
 
     .main-nav a {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .main-nav a:hover {
@@ -760,7 +761,7 @@ cite {
 } */
 
 ul, .made-by {
-  font-size: min(0.8rem + 1vw, 18px);
+  font-size: min(1rem + 1vw, 18px);
 }
 
 /* START Theme switch */
