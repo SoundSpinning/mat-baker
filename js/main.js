@@ -128,43 +128,43 @@ function initAudio() {
 }
 
 // Controls panel
-function initModals() {
-  // Get the modals
-  var controlsModal = document.getElementById("controls-modal");
+// function initModals() {
+//   // Get the modals
+//   var controlsModal = document.getElementById("controls-modal");
   
-  // About box popup
-  var footBar = document.querySelector(".foot-bar");
-  var controlsBox = document.querySelector(".foot-bar > span > a");
+//   // About box popup
+//   var footBar = document.querySelector(".foot-bar");
+//   var controlsBox = document.querySelector(".foot-bar > span > a");
 
-  controlsBox.onclick=()=> {
-    controlsModal.style.display = "flex";
-    footBar.style.display = "none";
-  }
+//   controlsBox.onclick=()=> {
+//     controlsModal.style.display = "flex";
+//     footBar.style.display = "none";
+//   }
   
-  // Get the <span> elements that close the modals
-  var xClose = document.querySelectorAll("span.close");
+//   // Get the <span> elements that close the modals
+//   var xClose = document.querySelectorAll("span.close");
   
-  // When the user clicks on <span> (x), close the modal
-  xClose.forEach(e => {
-    e.onclick = function() { 
-      controlsModal.style.animation = "slideOut 1s";
-      setTimeout(()=>{
-        controlsModal.style.display = "none";
-        controlsModal.style.animation = "slideIn 0.8s";
-        footBar.style.display = "initial";
-        // page.style.overflowY = "initial";
-      },500)
-    }
-  })
+//   // When the user clicks on <span> (x), close the modal
+//   xClose.forEach(e => {
+//     e.onclick = function() { 
+//       controlsModal.style.animation = "slideOut 1s";
+//       setTimeout(()=>{
+//         controlsModal.style.display = "none";
+//         controlsModal.style.animation = "slideIn 0.8s";
+//         footBar.style.display = "initial";
+//         // page.style.overflowY = "initial";
+//       },500)
+//     }
+//   })
 
-  // get range (slider) value:
-  // Get the root element
-  var r = document.querySelector(':root');
-  var baseSize = getComputedStyle(r).getPropertyValue('--base-size');
-  // slider input element
-  var fontSize = document.getElementById("gapSwitch");
-  fontSize.addEventListener('input', () => {
-    r.style.setProperty('--base-size', `calc(${baseSize} + ${fontSize.value}px)`);
-    // console.log("Got Here#2 :", fontSize.value);
-  })
-};
+//   // get range (slider) value:
+//   // Get the root element
+//   var r = document.querySelector(':root');
+//   var baseSize = getComputedStyle(r).getPropertyValue('--base-size');
+//   // slider input element
+//   var fontSize = document.getElementById("gapSwitch");
+//   fontSize.addEventListener('input', () => {
+//     r.style.setProperty('--base-size', `calc(${baseSize} + ${fontSize.value}px)`);
+//     // console.log("Got Here#2 :", fontSize.value);
+//   })
+// };

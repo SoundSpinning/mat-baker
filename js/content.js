@@ -66,7 +66,7 @@ async function loadContent() {
     initCarousels();
     initVideo();
     initAudio();
-    initModals();
+    // initModals();
   } catch (error) {
     console.error('Error loading media data:', error);
     document.getElementById('carousel-fallback').style.display = 'block';

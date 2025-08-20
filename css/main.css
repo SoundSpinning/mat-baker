@@ -1,17 +1,16 @@
 /* Base Styles */
 /* set global VARIABLES */
 :root {
-    --base-size: 16px;
+    --base-size: 20px;
     --gap: 1.5rem;
-    --primary: darkorange;
-    --secondary: #e25454;
-    --h2-border: #ff5e62;
-    --text: #333;
+    /* --primary: darkorange; */
+    --primary: #43592D;
+    /* --secondary: #e25454; */
+    --h2-border: #A68549;
+    --text: #222;
     --text-2: #777;
     /*  */
     --navHeight: 100px;
-    --max-card-w: 400px;
-    --link-line: crimson;
 
     /* LIGHT theme, for ref. See '.theme-switch__input' */
     /* --nav-gradLight: darkgoldenrod; */
@@ -29,7 +28,8 @@
     --dark: #2c3e50;
     --gradDark: #43592D;
     --gradLight: #A68549;
-    --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
+    /* --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark)); */
+    --background: #a9b6a4;
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
     --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight));
@@ -37,8 +37,8 @@
 
 html {
     box-sizing: border-box;
-    font-size: var(--base-size, 16px);
-    font-size: min(0.7rem + 1vw, calc(var(--base-size) + 4px));
+    font-size: var(--base-size);
+    font-size: min(1rem + 1vw, calc(var(--base-size) + 4px));
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -53,21 +53,19 @@ html {
 
 body {
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
-            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-            sans-serif;
+    font-family: "Forum", serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-optical-sizing: auto;
     margin: 0 auto;
     background: var(--background);
-    /* color: var(--text, black); */
-    color: var(--light);
+    color: var(--text);
     padding-top: var(--navHeight);
 }
 
 h1, h2, h3 {
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: sans-serif;
-    font-weight: 700;
+    /* font-family: sans-serif; */
+    /* font-weight: 700; */
     letter-spacing: 0.2rem;
 }
 
@@ -97,7 +95,6 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    /* background: linear-gradient(135deg, var(--primary), var(--secondary)); */
     background: var(--nav-background);
     color: var(--light);
     z-index: 1;
@@ -162,7 +159,7 @@ a {
 .main-nav a:hover,
 .branding:hover h1 {
     /* color: var(--text-2); */
-    color: var(--primary);
+    color: var(--gradLight);
 }
 
 .main-nav a::after,
@@ -317,7 +314,7 @@ main > section {
 
 .card:hover {
     transform: scale(1.025);
-    /* box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.9); */
+    box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.9);
 }
 
 .card:hover, 
@@ -326,7 +323,8 @@ main > section {
     background-color:darkgoldenrod;
 }
 
-.card.about:hover {
+.card.about:hover,
+.card.contact:hover {
     transform: none;
     background-color:initial;
 }
@@ -386,9 +384,9 @@ main > section {
     border: 1px solid whitesmoke;
 }
 
-.cta:hover:after {
+/* .cta:hover:after {
     width: 100%;
-}
+} */
 
 .cta:after {
     content: "";
@@ -519,7 +517,8 @@ cite {
 
 .feature h3 {
     font-size: 1.4rem;
-    color: #ff9966;
+    /* color: #ff9966; */
+    color: var(--gradLight);
 }
 
 .feature a button {
@@ -589,7 +588,7 @@ cite {
 }
 
 .social-links a:hover {
-    color: var(--primary);
+    color: var(--gradLight);
 }
 
 
@@ -690,7 +689,7 @@ cite {
 }
 
 /* Controls panel @ Footer */
-.foot-bar {
+/* .foot-bar {
     text-align: center;
     background-color: var(--primary);
     padding: 0.5rem;
@@ -720,10 +719,10 @@ cite {
 .foot-bar > span span {
     font-size: 1.5rem;
     line-height: 0;
-}
+} */
 
 /* .foot-bar modal(s) */
-#controls-modal {
+/* #controls-modal {
     display: none;
     flex-flow: row wrap;
     animation: slideIn 0.8s;
@@ -733,11 +732,9 @@ cite {
     bottom: 0;
     width: 100%;
     background: var(--nav-background);
-    /* overflow-y: hidden; */
-    /* overflow: auto; */
-}
+} */
 
-.close {
+/* .close {
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -760,7 +757,7 @@ cite {
   right: 2rem;
   z-index: 2;
   transition: 1s;
-}
+} */
 
 ul, .made-by {
   font-size: min(0.8rem + 1vw, 18px);
