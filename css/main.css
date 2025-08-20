@@ -760,9 +760,9 @@ cite {
   transition: 1s;
 } */
 
-ul, .made-by {
+/* ul, .made-by {
   font-size: min(1rem + 1vw, 18px);
-}
+} */
 
 /* START Theme switch */
 body:has(.theme-switch__input:checked) {
