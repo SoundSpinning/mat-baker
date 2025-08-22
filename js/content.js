@@ -55,7 +55,7 @@ async function loadContent() {
 `               <!-- SONG-${song.Id} -->
                     <div class="audio-item">
                         <p><i class="bi bi-soundwave"> </i>${song.info}</p>
-                        <audio controls>
+                        <audio controls preload="metadata">
                             <source src="${song.file}" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
