@@ -321,7 +321,8 @@ main > section {
 .card:hover, 
 .card:focus, 
 .card:active {
-    background-color:darkgoldenrod;
+    /* background-color:darkgoldenrod; */
+    background-color:rgba(130, 173, 87, 0.25);
 }
 
 .card.about:hover,
