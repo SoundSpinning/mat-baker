@@ -75,7 +75,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: var(--h2-border);
+    color: var(--primary);
 }
 
 /* Add ANIMATIONs */
@@ -360,6 +360,7 @@ main > section {
 }
 
 .stillness {
+    list-style: none;
     width: 6rem;
     height: 6rem;
     position: absolute;
@@ -370,6 +371,7 @@ main > section {
 /* Buttons */
 .cta {
     display: inline-block;
+    width: max-content;
     background: var(--primary);
     color: var(--light);
     padding: 0.8rem 1.5rem;
@@ -499,7 +501,8 @@ cite {
 }
 
 .feature {
-    background: rgba(0, 0, 0, 0.4);
+    /* background: rgba(0, 0, 0, 0.2); */
+    background: rgba(130, 173, 87, 0.25);
     padding: 0.5rem 1.25rem 1.25rem 1.25rem;
     border-radius: 10px;
     text-align: center;
@@ -513,13 +516,12 @@ cite {
 
 .feature i {
     font-size: 2.5rem;
-    color: var(--h2-border);
+    color: var(--gradLight);
     margin-bottom: 1rem;
 }
 
 .feature h3 {
     font-size: 1.4rem;
-    /* color: #ff9966; */
     color: var(--gradLight);
 }
 
