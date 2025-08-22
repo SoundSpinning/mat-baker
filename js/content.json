@@ -4,7 +4,7 @@
       "file": "profile_2.jpg",
       "alt": "Mat Baker music teaching, songwriting",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='high'",
       "info": "Music Teaching, Workshops, Events, Songwriting"
     },
     {
@@ -12,7 +12,7 @@
       "file": "mat_baker_perform_2.jpg",
       "alt": "Mat Baker Guitar teaching, performing",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Guitar - live performance"
     },
     {
@@ -20,7 +20,7 @@
       "file": "profile_4_bouzouki.jpg",
       "alt": "Mat Baker bouzouki teaching, performing",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Bouzouki teaching and performing"
     },
     {
@@ -28,7 +28,7 @@
       "file": "Rhythm into Stillness_2.jpg",
       "alt": "Mat Baker Rhythm into Stillness therapy",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Rhythm into Stillness therapy"
     },
     {
@@ -36,7 +36,7 @@
       "file": "profile_7_drums.jpg",
       "alt": "Mat Baker Rhythm kids workshops",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Percussion workshops with school kids"
     },
     {
@@ -44,7 +44,7 @@
       "file": "mat_baker_perform_10.jpg",
       "alt": "Mat Baker live events",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Ceremony - live performance"
     },
     {
@@ -52,7 +52,7 @@
       "file": "mat_baker_perform_11.jpg",
       "alt": "Mat Baker percussion workshops",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Percussion workshops & live events"
     },
     {
@@ -60,7 +60,7 @@
       "file": "Mat_Baker_Drums_in_Yurt.jpg",
       "alt": "Mat Baker live drums in Yurt",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Drums performance in a Yurt"
     },
     {
@@ -68,7 +68,7 @@
       "file": "ukulele_2.jpg",
       "alt": "Mat Baker ukulele Teaching",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Ukulele teaching and performing"
     },
     {
@@ -76,7 +76,7 @@
       "file": "mat_baker_perform_3.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Main Stage Performance"
     },
     {
@@ -84,7 +84,7 @@
       "file": "mat_baker_perform_4.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Main Stage Performance"
     },
     {
@@ -92,7 +92,7 @@
       "file": "mic_1.jpg",
       "alt": "Mat Baker songwriter",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Songwriting and studio recording"
     },
     {
@@ -100,7 +100,7 @@
       "file": "profile_6_bouzouki.jpg",
       "alt": "Mat Baker bouzouki",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Bouzouki"
     },
     {
@@ -108,7 +108,7 @@
       "file": "mat_baker_perform_1.jpg",
       "alt": "Mat Baker Guitar teaching, perform",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Guitar teaching and performing"
     },
     {
@@ -116,7 +116,7 @@
       "file": "Bakk Lamp Fall_1.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Mat live with 'Bakk Lamp Fall'"
     },
     {
@@ -124,7 +124,7 @@
       "file": "Mat_Baker_Music_logo.jpg",
       "alt": "Mat Baker Music logo",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Mat Baker Music logo"
     },
     {
@@ -132,7 +132,7 @@
       "file": "Guitar Man.jpg",
       "alt": "Mat Baker Music drawing",
       "year": " (2025)",
-      "title": "",
+      "fetch": "fetchpriority='low'",
       "info": "Mat Baker Music - guitar man"
     }
   ],

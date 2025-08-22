@@ -24,7 +24,7 @@ async function loadContent() {
       car_3d.innerHTML +=
 `                               <!-- IMG-${img.imgId} -->
                                 <div class="carousel-item">
-                                    <img src="${imgix_path}${img.file}${imgix_ops}" alt="${img.alt}" >
+                                    <img ${img.fetch} src="${imgix_path}${img.file}${imgix_ops}" alt="${img.alt}" >
                                     <div class="carousel-caption">${img.info}</div>
                                 </div>`
     }
