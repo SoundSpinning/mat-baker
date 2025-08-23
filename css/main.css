@@ -5,30 +5,16 @@
     --gap: 1.5rem;
     /* --primary: darkorange; */
     --primary: rgb(67, 89, 45);
-    /* --secondary: #e25454; */
     --h2-border: #A68549;
     --text: #222;
     --text-2: #777;
     /*  */
     --navHeight: 100px;
-
-    /* LIGHT theme, for ref. See '.theme-switch__input' */
-    /* --nav-gradLight: darkgoldenrod; */
-    /* --light: #333;
-    --dark: burlywood;
-    --gradDark: rgb(184, 184, 192);
-    --gradLight: rgba(222, 184, 135, 0.85);
-    --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
-    --nav-gradLight: #A68549;
-    --nav-gradDark: rgba(230, 230, 250, 1);
-    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)); */
-
-    /* DARK theme, for ref. See '.theme-switch__input' */
+    /* Mat's theme */
     --light: whitesmoke;
     --dark: #2c3e50;
     --gradDark: #43592D;
     --gradLight: #A68549;
-    /* --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark)); */
     --background: #a9b6a4;
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
@@ -52,7 +38,6 @@ html {
 }
 
 body {
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: "Forum", serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -64,8 +49,6 @@ body {
 }
 
 h1, h2, h3 {
-    /* font-family: sans-serif; */
-    /* font-weight: 700; */
     letter-spacing: 0.2rem;
 }
 
@@ -153,7 +136,6 @@ a {
     font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
-    /* font-weight: bold; */
     padding: 0.5rem 0;
     position: relative;
 }
@@ -196,7 +178,7 @@ a {
 .hamburger, 
 .hamburger::before, 
 .hamburger::after {
-    pointer-events: none; /* Lets clicks pass through to button */
+    pointer-events: none;
 }
 
 .hamburger {
@@ -299,15 +281,11 @@ main > section {
 }
 
 
-
 /* Cards */
 .card {
     display: flex;
     flex-direction: column;
-    /* background: var(--light); */
-    /* color: var(--light); */
     border-radius: 0.5rem;
-    /* border: 1px solid whitesmoke; */
     overflow: hidden;
     box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.95);
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
@@ -321,7 +299,6 @@ main > section {
 .card:hover, 
 .card:focus, 
 .card:active {
-    /* background-color:darkgoldenrod; */
     background-color:rgba(130, 173, 87, 0.25);
 }
 
@@ -460,8 +437,7 @@ audio:focus-within {
 }
 
 blockquote {
-    /* background: var(--light); */
-    background: whitesmoke;
+    background: var(--light);
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -481,9 +457,6 @@ cite {
 /* Contact */
 .contact {
     padding: 2rem;
-    /* background: var(--light);
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
 }
 
 .contact h2 {
@@ -501,8 +474,7 @@ cite {
 }
 
 .feature {
-    /* background: rgba(0, 0, 0, 0.2); */
-    background: rgba(130, 173, 87, 0.25);
+    background: var(--light);
     padding: 0.5rem 1.25rem 1.25rem 1.25rem;
     border-radius: 10px;
     text-align: center;
@@ -511,8 +483,7 @@ cite {
 
 .feature:hover {
     transform: scale(1.025);
-    /* background: rgba(0, 0, 0, 0.4); */
-    background: rgba(130, 173, 87, 0.45);
+    background: rgba(130, 173, 87, 0.25);
 }
 
 .feature i {
@@ -590,7 +561,6 @@ cite {
 /* Bandcamp icon */
 .bi-suit-diamond-fill::before {
     transform: rotate(53deg);
-    /* color: #0687f5; */
 }
 
 .social-links a:hover {
@@ -770,16 +740,16 @@ cite {
 } */
 
 /* START Theme switch */
-body:has(.theme-switch__input:checked) {
+/* body:has(.theme-switch__input:checked) { */
     /* LIGHT theme */
-    --light: #333;
+    /* --light: #333;
     --dark: burlywood;
     --gradDark: rgb(184, 184, 192);
     --gradLight: rgba(222, 184, 135, 0.85);
     --background: linear-gradient(90deg, var(--gradDark), var(--gradLight), var(--gradDark));
     --nav-gradLight: #A68549;
     --nav-gradDark: rgba(230, 230, 250, 1);
-    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight));
+    --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)); */
     /* DARK theme */
     /* --light: whitesmoke;
     --dark: #2c3e50;
@@ -789,9 +759,9 @@ body:has(.theme-switch__input:checked) {
     --nav-gradDark: rgba(0, 0, 0, 0.95);
     --nav-gradLight: rgba(0, 0, 0, 0.8);
     --nav-background: linear-gradient(0deg, var(--nav-gradLight), var(--nav-gradDark), var(--nav-gradLight)); */
-}
+/* } */
 
-.theme-switch__input {
+/* .theme-switch__input {
   display: none;
 }
 
@@ -854,21 +824,18 @@ body:has(.theme-switch__input:checked) {
 }
 
 .theme-switch__input:checked ~ .theme-switch__label::after {
-  /* color: black; */
   color: var(--light);
 }
 .theme-switch__input:checked ~ .theme-switch__label::before {
   color: turquoise;
-}
+} */
 /* END Theme switch */
 
 /* START gap switch */
-.range {
+/* .range {
   display: flex;
   flex-flow: column-reverse;
-  /* CROSS flex axis */
   align-items: center;
-  /* MAIN flex axis */
   justify-content: flex-end;
 }
 
@@ -881,7 +848,7 @@ datalist {
   flex-direction: row;
   justify-content: space-around;
   width: 160px;
-}
+} */
 /* END gap switch */
 
 /* General screens settings */
