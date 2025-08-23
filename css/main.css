@@ -4,7 +4,7 @@
     --base-size: 20px;
     --gap: 1.5rem;
     /* --primary: darkorange; */
-    --primary: #43592D;
+    --primary: rgb(67, 89, 45);
     /* --secondary: #e25454; */
     --h2-border: #A68549;
     --text: #222;
@@ -511,18 +511,20 @@ cite {
 
 .feature:hover {
     transform: scale(1.025);
-    background: rgba(0, 0, 0, 0.5);
+    /* background: rgba(0, 0, 0, 0.4); */
+    background: rgba(130, 173, 87, 0.45);
 }
 
 .feature i {
     font-size: 2.5rem;
-    color: var(--gradLight);
+    /* color: var(--gradLight); */
+    color: rgb(162, 104, 0);
     margin-bottom: 1rem;
 }
 
 .feature h3 {
     font-size: 1.4rem;
-    color: var(--gradLight);
+    color: rgb(162, 104, 0);
 }
 
 .feature a button {
