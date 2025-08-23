@@ -108,8 +108,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet"> -->
 
     <!-- https://fonts.bunny.net/ - do not track, faster than G-fonts [?] -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=forum:400" rel="stylesheet" />
+    <!-- <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=forum:400" rel="stylesheet" /> -->
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="css/fonts/Forum.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Include critical font faces inline -->
+    <style>
+      @font-face {
+        font-family: 'Forum';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('css/fonts/Forum.woff2') format('woff2');
+      }
+    </style>
 
     <!-- Preload JSON to boost load speed -->
     <link rel="preload" href="js/content.json" as="fetch" crossorigin="anonymous">
