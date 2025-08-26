@@ -12,7 +12,7 @@ window.addEventListener('resize', setNavHeight);
 window.addEventListener('DOMContentLoaded', setNavHeight);
 
 // Smooth scrolling for navigation
-// Grab all a links starting with `#`
+// Grab all `a` links starting with `#`
 document.querySelectorAll('a[href*="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();

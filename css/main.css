@@ -120,6 +120,14 @@ a {
     opacity: 0.9;
 }
 
+.branding-text h1 {
+    color: var(--gradLight);
+}
+
+.branding-text:hover h1 {
+    color: whitesmoke;
+}
+
 /* Desktop Navigation */
 .main-nav ul {
     display: flex;
@@ -128,7 +136,7 @@ a {
 }
 
 .main-nav li {
-    margin-left: 2rem;
+    margin-left: 0.75rem;
 }
 
 .main-nav a {
@@ -140,8 +148,7 @@ a {
     position: relative;
 }
 
-.main-nav a:hover,
-.branding:hover h1 {
+.main-nav a:hover {
     color: var(--gradLight);
 }
 
@@ -214,7 +221,8 @@ a {
 
 /* Mobile Menu Styles */
 /* @media (max-width: 768px) { */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) { */
+@media (max-width: 1200px) {
     .main-nav {
         position: fixed;
         top: 0;
