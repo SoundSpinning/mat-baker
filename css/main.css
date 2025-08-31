@@ -301,7 +301,7 @@ main > section {
 }
 
 .card:hover {
-    transform: scale(1.025);
+    transform: scale(1.02);
     box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.9);
 }
 
@@ -322,7 +322,6 @@ main > section {
 }
 
 .card h2 {
-    margin-bottom: 1rem;
     font-size: 2rem;
     margin-bottom: 1.25rem;
     padding-bottom: 0.625rem;
@@ -434,8 +433,7 @@ audio:focus-within {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--gap);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 0.5rem 0 2rem 0;
     color: var(--text);
 }
 
@@ -470,7 +468,7 @@ cite {
 
 .contact h2 {
     text-align: center;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 /* Contact blocks */
@@ -478,13 +476,13 @@ cite {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.25rem;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 0.5rem;
+    /* padding-bottom: 2rem; */
 }
 
 .feature {
     background: var(--light);
-    padding: 0.5rem 1.25rem 1.25rem 1.25rem;
+    padding: 0.5rem;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease;
@@ -505,6 +503,7 @@ cite {
 .feature h3 {
     font-size: 1.4rem;
     color: rgb(162, 104, 0);
+    padding: 0;
 }
 
 .feature a button {
@@ -582,7 +581,7 @@ cite {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--gap);
-    margin: 1rem;
+    margin: 0.5rem 1rem 1rem 1rem;
 }
 
 .video-item {

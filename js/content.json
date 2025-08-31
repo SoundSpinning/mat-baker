@@ -81,6 +81,14 @@
     },
     {
       "imgId": 11,
+      "file": "mat_baker_perform_12.jpg",
+      "alt": "Mat Baker Guitar teaching, performing",
+      "year": " (2025)",
+      "fetch": "fetchpriority='low'",
+      "info": "Guitar - live performance"
+    },
+    {
+      "imgId": 12,
       "file": "mat_baker_perform_4.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
@@ -88,7 +96,7 @@
       "info": "Main Stage Performance"
     },
     {
-      "imgId": 12,
+      "imgId": 13,
       "file": "mic_1.jpg",
       "alt": "Mat Baker songwriter",
       "year": " (2025)",
@@ -96,7 +104,7 @@
       "info": "Songwriting and studio recording"
     },
     {
-      "imgId": 13,
+      "imgId": 14,
       "file": "profile_6_bouzouki.jpg",
       "alt": "Mat Baker bouzouki",
       "year": " (2025)",
@@ -104,7 +112,7 @@
       "info": "Bouzouki"
     },
     {
-      "imgId": 14,
+      "imgId": 15,
       "file": "mat_baker_perform_1.jpg",
       "alt": "Mat Baker Guitar teaching, perform",
       "year": " (2025)",
@@ -112,7 +120,7 @@
       "info": "Guitar teaching and performing"
     },
     {
-      "imgId": 15,
+      "imgId": 16,
       "file": "Bakk Lamp Fall_1.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
@@ -120,7 +128,7 @@
       "info": "Mat live with 'Bakk Lamp Fall'"
     },
     {
-      "imgId": 16,
+      "imgId": 17,
       "file": "Mat_Baker_Music_logo.jpg",
       "alt": "Mat Baker Music logo",
       "year": " (2025)",
@@ -128,7 +136,7 @@
       "info": "Mat Baker Music logo"
     },
     {
-      "imgId": 17,
+      "imgId": 18,
       "file": "Guitar Man.jpg",
       "alt": "Mat Baker Music drawing",
       "year": " (2025)",
