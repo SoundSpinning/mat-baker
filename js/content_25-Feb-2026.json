@@ -17,22 +17,30 @@
     },
     {
       "imgId": 3,
-      "file": "mat_baker_perform_13.jpg",
-      "alt": "Mat Baker music teaching, songwriting",
-      "year": " (2026)",
+      "file": "profile_4_bouzouki.jpg",
+      "alt": "Mat Baker bouzouki teaching, performing",
+      "year": " (2025)",
       "fetch": "fetchpriority='low'",
-      "info": "Music Teaching, Workshops, Events, Weddings"
+      "info": "Bouzouki teaching and performing"
     },
     {
       "imgId": 4,
-      "file": "mat_baker_schools_1.jpg",
-      "alt": "Mat Baker music teaching, schools",
-      "year": " (2026)",
+      "file": "Rhythm into Stillness_2.jpg",
+      "alt": "Mat Baker Rhythm into Stillness",
+      "year": " (2025)",
       "fetch": "fetchpriority='low'",
-      "info": "Schools Workshops, Percussion"
+      "info": "Rhythm into Stillness Workshop"
     },
     {
       "imgId": 5,
+      "file": "profile_7_drums.jpg",
+      "alt": "Mat Baker Rhythm kids workshops",
+      "year": " (2025)",
+      "fetch": "fetchpriority='low'",
+      "info": "Percussion workshops with school kids"
+    },
+    {
+      "imgId": 6,
       "file": "mat_baker_perform_10.jpg",
       "alt": "Mat Baker live events",
       "year": " (2025)",
@@ -40,7 +48,31 @@
       "info": "Ceremony - live performance"
     },
     {
-      "imgId": 6,
+      "imgId": 8,
+      "file": "Mat_Baker_Drums_in_Yurt.jpg",
+      "alt": "Mat Baker live drums in Yurt",
+      "year": " (2025)",
+      "fetch": "fetchpriority='low'",
+      "info": "Drums performance in a Yurt"
+    },
+    {
+      "imgId": 9,
+      "file": "ukulele_2.jpg",
+      "alt": "Mat Baker ukulele Teaching",
+      "year": " (2025)",
+      "fetch": "fetchpriority='low'",
+      "info": "Ukulele teaching and performing"
+    },
+    {
+      "imgId": 10,
+      "file": "mat_baker_perform_3.jpg",
+      "alt": "Mat Baker live music",
+      "year": " (2025)",
+      "fetch": "fetchpriority='low'",
+      "info": "Main Stage Performance"
+    },
+    {
+      "imgId": 11,
       "file": "mat_baker_perform_12.jpg",
       "alt": "Mat Baker Guitar teaching, performing",
       "year": " (2025)",
@@ -48,7 +80,7 @@
       "info": "Guitar - live performance"
     },
     {
-      "imgId": 7,
+      "imgId": 12,
       "file": "mat_baker_perform_4.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
@@ -56,7 +88,15 @@
       "info": "Main Stage Performance"
     },
     {
-      "imgId": 8,
+      "imgId": 13,
+      "file": "mic_1.jpg",
+      "alt": "Mat Baker songwriter",
+      "year": " (2025)",
+      "fetch": "fetchpriority='low'",
+      "info": "Songwriting and studio recording"
+    },
+    {
+      "imgId": 14,
       "file": "profile_6_bouzouki.jpg",
       "alt": "Mat Baker bouzouki",
       "year": " (2025)",
@@ -64,7 +104,7 @@
       "info": "Bouzouki"
     },
     {
-      "imgId": 9,
+      "imgId": 15,
       "file": "mat_baker_perform_1.jpg",
       "alt": "Mat Baker Guitar teaching, perform",
       "year": " (2025)",
@@ -72,7 +112,7 @@
       "info": "Guitar teaching and performing"
     },
     {
-      "imgId": 10,
+      "imgId": 16,
       "file": "Bakk Lamp Fall_1.jpg",
       "alt": "Mat Baker live music",
       "year": " (2025)",
@@ -80,7 +120,7 @@
       "info": "Mat live with 'Bakk Lamp Fall'"
     },
     {
-      "imgId": 11,
+      "imgId": 17,
       "file": "Mat_Baker_Music_logo.jpg",
       "alt": "Mat Baker Music logo",
       "year": " (2025)",
@@ -88,7 +128,7 @@
       "info": "Mat Baker Music logo"
     },
     {
-      "imgId": 12,
+      "imgId": 18,
       "file": "Guitar Man.jpg",
       "alt": "Mat Baker Music drawing",
       "year": " (2025)",
