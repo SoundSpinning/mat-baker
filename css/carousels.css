@@ -35,6 +35,7 @@
     height: 90%;
     top: 5%;
     left: 15%;
+    background: rgba(169, 182, 164, 0.75);
     transition: all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
     transform-origin: center center;
     border-radius: 12px;
@@ -46,7 +47,7 @@
     width: 100%;
     height: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .carousel-caption {

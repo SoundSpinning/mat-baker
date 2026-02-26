@@ -357,14 +357,6 @@ main > section {
     bottom: -4rem;
 }
 
-/* #teaching .card-content {
-    background-image: url("https://sound-spinning-pics.imgix.net/mat/mat_baker_perform_13.jpg?w=800&auto=compress,enhance,format");
-    background-repeat: no-repeat;
-    background-position-x: right 1rem;
-    background-position-y: top 15rem;
-    background-size: 40%;
-} */
-
 /* Buttons */
 .cta {
     display: inline-block;
