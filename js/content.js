@@ -17,17 +17,17 @@ async function loadContent() {
     const response = await fetch('js/content.json');
     const data = await response.json();
     // get content holders in HTML
-    const car_3d = document.querySelector('.carousel-3d-track');
-    const dataImgs = data.images;
-    // 1.- Append images to HTML
-    for (const img of dataImgs) {
-      car_3d.innerHTML +=
-`                               <!-- IMG-${img.imgId} -->
-                                <div class="carousel-item">
-                                    <img ${img.fetch} src="${imgix_path}${img.file}${imgix_ops}" alt="${img.alt}" >
-                                    <div class="carousel-caption">${img.info}</div>
-                                </div>`
-    }
+//     const car_3d = document.querySelector('.carousel-3d-track');
+//     const dataImgs = data.images;
+//     // 1.- Append images to HTML
+//     for (const img of dataImgs) {
+//       car_3d.innerHTML +=
+// `                               <!-- IMG-${img.imgId} -->
+//                                 <div class="carousel-item">
+//                                     <img ${img.fetch} src="${imgix_path}${img.file}${imgix_ops}" alt="${img.alt}" >
+//                                     <div class="carousel-caption">${img.info}</div>
+//                                 </div>`
+//     }
     // loading="lazy"
     const vid_grid = document.querySelector('.video-grid');
     const dataVids = data.videos;
@@ -63,7 +63,7 @@ async function loadContent() {
     }
 
     // Initialise carousels AFTER DOM is ready
-    initCarousels();
+    // initCarousels();
     initVideo();
     initAudio();
     // initModals();
